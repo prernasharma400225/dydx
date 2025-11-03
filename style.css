@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background-image: url(Stars_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+main .top {
+  width: 100%;
+  background-color: rgb(120, 83, 253);
+  color: white;
+  padding: 1.3rem;
+}
+main .top h1 {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+main nav .nav1 {
+  font-size: 1.7rem;
+  background-color: rgba(107, 107, 109, 0.537);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0.6rem;
+  border-radius: 50px;
+}
+main nav .nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+main nav .nav2 .nav2-top {
+  font-size: 1.7rem;
+  background-color: rgba(107, 107, 109, 0.537);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0.5rem 0.6rem;
+  border-radius: 50px;
+}
+main nav .nav2 .nav2-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(111, 84, 235);
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+}
+main nav .nav2 .nav2-bottom svg {
+  color: white;
+}
+main nav .nav2 .nav2-bottom span {
+  font-weight: bold;
+}
+main header {
+  width: 100%;
+  background-image: url(Mobile-Hero_750x@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main header .header-first {
+  padding: 12rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main header .header-first h1 {
+  font-size: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+main header .header-first button {
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  background-color: rgb(111, 84, 235);
+  color: white;
+  border-radius: 30px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
